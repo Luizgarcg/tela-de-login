@@ -1,42 +1,39 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>login</title>
-</head>
-<body>
-    <form action="" method="post">
-       <h1>bem vindo</h1>
-
-        <div class="d1">
-            <label for="user"></label>
-                <input type="text" name="user" id="user" placeholder="username">
-        </div>
-
-        <div class="d2">
-                <label for="pass">
-                    <input type="password" name="pass" id="pass" placeholder="passoword"
-                    required minlength="8">
-                    <p class="pp">esqueceu sua senha?</p>
-                </label>
-                </div>
-                <div>
-                    remmber
-                <input type="checkbox" name="remb" id="remb"> 
-
-                </div>
-                
-                <div class="d3">
-               <input type="submit" value="cadrastar">
-                </div>
-                
-                
-            
+  </head>
+  <body>
+    <div class="card">
+      <div class="form">
+        <form action="">
+          <div class="d1">
+            <h2>bem vindo</h2>
+            <label for="username"></label>
+            <input type="text" name="username" id="username" placeholder="username"/>
+          </div>
 
 
+          <div class="d2">
+            <label for="senha"></label>
+            <input type="password" name="senha" id="senha" placeholder="passoword"/>
+          </div>
 
-    </form>
-</body>
+          <div class="d3">
+            <input type="checkbox" name="lbsenha" id="lbsenha" />
+            <label for="lbsenha">lembrar senha</label>
+          </div>
+
+          <div class="df"><p>esqueceu senha?</p></div>
+
+          <div class="d4"><input type="submit" value="cadrastar" /></div>
+        </form>
+      </div>
+
+      <div class="white"></div>
+    </div>
+  </body>
 </html>
