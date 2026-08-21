@@ -1,39 +1,43 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>login</title>
   </head>
   <body>
-    <div class="card">
-      <div class="form">
-        <form action="">
-          <div class="d1">
-            <h2>bem vindo</h2>
-            <label for="username"></label>
-            <input type="text" name="username" id="username" placeholder="username"/>
-          </div>
+    <div class="form">
+      <form action="" method="post">
+        <div class="ft">
+          <img src="" alt="" /> 
+        </div>
 
+        <div class="lo"><h2>login</h2></div>
 
-          <div class="d2">
-            <label for="senha"></label>
-            <input type="password" name="senha" id="senha" placeholder="passoword"/>
-          </div>
-
-          <div class="d3">
-            <input type="checkbox" name="lbsenha" id="lbsenha" />
-            <label for="lbsenha">lembrar senha</label>
-          </div>
-
-          <div class="df"><p>esqueceu senha?</p></div>
-
-          <div class="d4"><input type="submit" value="cadrastar" /></div>
-        </form>
-      </div>
-
-      <div class="white"></div>
+        <div class="d1">
+          <label for="usuario"></label>
+          <input
+            type="text"
+            name="usuario"
+            id="usuario"
+            placeholder="username" required
+          />
+        </div>
+        <div class="d2">
+          <label for="password"></label>
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="password" required
+          />
+        </div>
+        <div class="d3">
+          <label for="login"></label>
+          <input type="submit" value="login" />
+        </div>
+      </form>
     </div>
   </body>
 </html>
