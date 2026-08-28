@@ -46,7 +46,9 @@ body,html {
   border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
-input::placeholder{color: rgba(0, 0, 0, 0.596);}
+input::placeholder{color: rgba(0, 0, 0, 0.596);
+  text-indent: 10px;
+}
 
 .d2 input {
   margin-bottom: 10px;
