@@ -16,6 +16,7 @@
 
 body,html {
   background-color: #f2e0c9;
+  
 }
 
 .form {
@@ -31,7 +32,7 @@ body,html {
   background-size: cover;
   border-radius: 10px;
   box-shadow: inset -1px 0px 5px 0px black;
-  margin-top: 100px;
+  margin-top: 0%;
   height: 500px;
   max-width: 600px;
 }
@@ -39,7 +40,7 @@ body,html {
   margin-bottom: 10px;
   border-radius: 8px;
   height: 30px;
-  background: rgba(255, 255, 255, 0.15);
+  background: rgba(255, 255, 255, 0.603);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -49,7 +50,7 @@ body,html {
   margin-bottom: 10px;
   border-radius: 8px;
   height: 30px;
-  background: rgba(255, 255, 255, 0.15);
+  background: rgba(255, 255, 255, 0.603);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -66,7 +67,7 @@ body,html {
 
 }
 .ft {
-  background-image: url(https://i.pinimg.com/1200x/e9/ec/1f/e9ec1f47ec9f3836a3c8cb129fc7f61e.jpg);
+  background-image: url(https://i.pinimg.com/736x/0f/f4/6b/0ff46b505c6782dac12b3f810adba3b4.jpg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
