@@ -11,7 +11,6 @@ body{background-color: #404040;}
 
 header{background-color: #924F24;
     padding: 10px;
-    flex-direction: row;
     text-align: center;
 }
 
@@ -25,7 +24,7 @@ header span a{display:inline-block;
     background-color: #000000;
     border-radius: 12px;
     padding: 12px;
-    margin-right: 40px;
+    margin-right: 10%;
     border: 1px solid wheat;
 }
 a{
@@ -35,6 +34,17 @@ text-decoration: none;
 a:hover{background-color: #c1c0c0;
 transform: scale(1.1);}
 
+
+
+
+
+
+
+
+
+
+
+
 .card{background-color: aliceblue;
     background-image: url(https://i.pinimg.com/736x/44/52/0a/44520ab72daec80e8a9add1e33f93c78.jpg);
     background-position: center center;
@@ -43,12 +53,14 @@ transform: scale(1.1);}
     background-attachment: fixed;
 max-width: 100%;
 margin-left: auto;
-margin-right: auto;}
+margin-right: auto;
+padding: 10px;}
 
 
 
 main h2{text-align: center;
     color: azure;
+
     
 }
 
@@ -58,6 +70,7 @@ margin-bottom: 10px;
 color: antiquewhite;}
 
 .img1{display: block;
+    justify-content: baseline;
     width: 300px;
     margin-left: auto;
     margin-right: auto;
