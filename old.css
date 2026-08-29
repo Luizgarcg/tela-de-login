@@ -1,0 +1,29 @@
+*{padding: 0px;
+margin: 0px;
+box-sizing: border-box;
+font-family: 'Times New Roman', Times, serif;}
+
+.con{width: 100%;
+}
+
+
+body{background-color: #404040;}
+
+header{background-color: #924F24;
+padding-bottom: 40px;}
+
+header h1{text-align: center;
+
+}
+
+header span a{display:inline-block;
+background-color: #404040;
+flex-direction: column;
+padding: 15px;
+border-radius: 10px;
+}
+
+a{text-decoration: none;
+color: #BFA145;
+
+}
