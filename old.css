@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 *{padding: 0px;
 margin: 0px;
 box-sizing: border-box;
-font-family: 'Times New Roman', Times, serif;}
+font-family: 'Times New Roman', Times, serif;
+ font-family: "Courier Prime", monospace;}
 
 .con{width: 100%;
 }
@@ -76,8 +78,66 @@ color: antiquewhite;}
     width: 300px;
     margin-left: auto;
     margin-right: auto;
-    border: 3px solid #BFA145;
+    border: 2px solid #BFA145;
+  border-radius: 8px; /* Opcional */
+  box-shadow: 0 0 15px #BFA145, inset 0 0 15px #924F24;
     margin-bottom: 20px;
 }
 
 img:hover{transform: scale(1.05);}
+
+
+.mar{background-color: aliceblue;
+    background-image: url(https://i.pinimg.com/736x/0b/b7/18/0bb718bf03182bf01ce7fc9825de23fe.jpg);
+    background-position: center center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+max-width: 100%;
+margin-left: auto;
+margin-right: auto;
+padding: 10px;}
+
+.marr{text-align: center;
+margin-top: 20px;
+margin-bottom: 10px;
+color: antiquewhite;}
+
+.lan{background-color: aliceblue;
+    background-image: url(https://i.pinimg.com/736x/a6/39/4c/a6394c4c676cc36e67dab2c70341242e.jpg);
+    background-position: center center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+max-width: 100%;
+margin-left: auto;
+margin-right: auto;
+padding: 10px;}
+
+.a{border: 1px solid rgba(184, 134, 11, 0.25); 
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  border-radius: 12px;
+  
+  /* FUNDO: Começa com um marrom iluminado/bronze no centro e escurece para um café nas bordas */
+  background: radial-gradient(circle, rgba(139, 90, 43, 0.3) 0%, rgba(44, 30, 20, 0.7) 100%);
+  
+  /* BRILHO: Um reflexo interno caloroso que ilumina os cantos discretamente */
+  box-shadow: inset 0 0 15px rgba(212, 175, 55, 0.15), 
+              0 4px 20px rgba(0, 0, 0, 0.3); /* Sombra suave externa para dar profundidade */
+  
+  /* Sugestão de cor para o texto (Branco marfim/pérola para combinar) */
+  color: #fcfaf2; }
+
+
+  .a:hover{transform: scale(1.02);
+background: radial-gradient(circle, rgba(139, 90, 43, 0.6) 0%, rgba(54, 36, 23, 0.95) 100%);
+  
+  /* 2. A borda de ouro acende sutilmente */
+  border-color: rgba(212, 175, 55, 0.7);
+  
+  /* 3. O brilho interno (inset) de ouro expande, dando aspecto de tecido acetinado */
+  box-shadow: inset 0 0 20px rgba(212, 175, 55, 0.25),
+              0 6px 25px rgba(139, 90, 43, 0.25)}
